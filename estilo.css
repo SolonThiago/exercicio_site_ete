@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F0F0;
+}
+
+.logo {
+    position: fixed;
+}
+
+nav {
+    background-color: #0491f5;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline 3px
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    padding-top: 150px;
+    background-color: #F0F0F0;
+}
+
+footer {
+    background-color: #0491f5;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+input, button, textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #F7C04A;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6a800;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: x-large;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    main {
+        padding-top: 200px;
+    }
+
+    input, button, textarea {
+        width: 90%;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+}
+    
