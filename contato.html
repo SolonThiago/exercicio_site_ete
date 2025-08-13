@@ -24,16 +24,15 @@
             <h1>Fale Comigo</h1>
             
             <!-- Formulário de contato -->
-            <form id="formContato">
-                <!-- seus inputs -->
-                <input type="text" id="nomeContato" placeholder="Nome completo">
-                <input type="email" id="emailContato" placeholder="Seu email">
-                <input type="tel" id="telefoneContato" placeholder="Telefone">
-                <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+            <form id="formContato" class="contact-form">
+                <input type="text" id="nomeContato" placeholder="Nome completo" required>
+                <input type="email" id="emailContato" placeholder="Seu email" required>
+                <input type="tel" id="telefoneContato" placeholder="Telefone" required>
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
-            
+
             <!-- Área para mensagem de confirmação -->
             <div id="mensagem-confirmacao" class="confirmation-message"></div>
         </section>
@@ -68,7 +67,7 @@
     </footer>
 
     <!-- Script JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     
 </body>
 
