@@ -159,7 +159,7 @@ main {
 }
 
 /* Card com foto do perfil */
-.profile-card {
+/* .profile-card {
     background: linear-gradient(135deg, #DED3C4, #F4EBD3);
     border-radius: 20px;
     padding: 30px;
@@ -168,20 +168,20 @@ main {
     box-shadow: 0 10px 30px rgba(85, 88, 121, 0.2);
     animation-delay: 0.4s;
     transition: transform 0.3s ease;
-}
+} */
 
-.profile-card:hover {
+/* .profile-card:hover {
     transform: translateY(-10px);
-}
+} */
 
 .profile-image {
     margin-bottom: 20px;
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
     border: 4px solid #555879;
     object-fit: cover;
     transition: transform 0.3s ease;

@@ -1,47 +1,48 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> <!-- Define que o documento está no formato HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma principal como Português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante responsividade para dispositivos móveis -->
+    <title>Contato</title> <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="estilo.css"> <!-- Importa o arquivo de estilos CSS externo -->
 </head>
 <body>
 
     <!-- Navegação principal do site -->
-    <nav class="fade-in">
-        <div class="logo">
-            <h3>&lt;/ SolonDev &gt;</h3>
+    <nav class="fade-in"> <!-- Barra de navegação com efeito de entrada suave -->
+        <div class="logo"> <!-- Área do logotipo -->
+            <h3>&lt;/ SolonDev &gt;</h3> <!-- Logotipo textual estilizado -->
         </div>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="contato.html">Contato</a>
+        <!-- Links de navegação -->
+        <a href="index.html">Início</a> <!-- Link para a página inicial -->
+        <a href="sobre.html">Sobre</a> <!-- Link para a página "Sobre" -->
+        <a href="contato.html">Contato</a> <!-- Link para a página de contato -->
     </nav>
 
     <!-- Conteúdo principal da página de contato -->
     <main>
-        <section class="contact-section fade-in">
-            <h1>Fale Comigo</h1>
+        <section class="contact-section fade-in"> <!-- Seção de contato com animação -->
+            <h1>Fale Comigo</h1> <!-- Título da seção -->
             
             <!-- Formulário de contato -->
-            <form id="formContato" class="contact-form">
-                <input type="text" id="nomeContato" placeholder="Nome completo" required>
-                <input type="email" id="emailContato" placeholder="Seu email" required>
-                <input type="tel" id="telefoneContato" placeholder="Telefone" required>
-                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+            <form id="formContato" class="contact-form"> <!-- Formulário identificado para manipulação no JavaScript -->
+                <input type="text" id="nomeContato" placeholder="Nome completo" required> <!-- Campo para nome -->
+                <input type="email" id="emailContato" placeholder="Seu email" required> <!-- Campo para email -->
+                <input type="tel" id="telefoneContato" placeholder="Telefone" required> <!-- Campo para telefone -->
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea> <!-- Campo de texto para a mensagem -->
 
-                <button type="submit">Enviar</button>
+                <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
             </form>
 
             <!-- Área para mensagem de confirmação -->
-            <div id="mensagem-confirmacao" class="confirmation-message"></div>
+            <div id="mensagem-confirmacao" class="confirmation-message"></div> <!-- Exibe mensagem após envio -->
         </section>
     </main>
 
     <!-- Rodapé com links de contato -->
-    <footer class="fade-in">
+    <footer class="fade-in"> <!-- Rodapé com animação -->
         <div class="footer-content">
-            <p>&copy; 2025 SolonDev. Todos os direitos reservados.</p>
+            <p>&copy; 2025 SolonDev. Todos os direitos reservados.</p> <!-- Direitos autorais -->
             
             <!-- Links para redes sociais e contato -->
             <div class="social-links">
@@ -67,8 +68,7 @@
     </footer>
 
     <!-- Script JavaScript -->
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Importa o arquivo de funcionalidades JavaScript -->
     
 </body>
-
 </html>
